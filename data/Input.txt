@@ -1,0 +1,37 @@
+#File containing all parameters relevant to the BP problem
+#1-Name of file containing the patterns
+iris.data
+#2-Number of columns (in file above) belonging to the inputs
+4
+#3-Number of columns (in file above) belonging to outputs
+1
+#4-Number of hidden layers
+1
+#5-Nodes(neurons) per layer. Needs as many entries as layers
+5
+#6-Type of scaling of the data (None, Normal, Mean)
+Normal
+#7-Initial range of weights [min max]
+-1 1
+#8-Initial range of thresholds [min max]
+-1 1
+#9-Number of epochs
+1000
+#10-Learning rate
+0.1
+#11-Momentum
+0.9
+#12-Learning mode (batch, online)
+online
+#13-Number of patterns reserved for testing (training will be nPatterns - testPatterns)
+15
+#14-k value for cross validation (1/k patterns taken out for validation)
+10
+#15-Activation function used for hidden layers: transfer(g(x) = x), logistic(g(x) = 1/(1-exp(-2bx))) or tanh(g(x) = tanh(bx)))
+logistic 0.5
+#16-Activation function used for output layers: see#15
+logistic 0.5
+#17-Cost function used for error estimation (only energy so far; TODO entropy)
+energy
+#18-Output file name
+Output.txt
