@@ -1,0 +1,7 @@
+Scanning dependencies of target A2
+[ 20%] Building CXX object CMakeFiles/A2.dir/src/bpneuralnetwork.cpp.o
+[ 40%] Building CXX object CMakeFiles/A2.dir/src/inputreader.cpp.o
+[ 60%] Building CXX object CMakeFiles/A2.dir/src/main.cpp.o
+[ 80%] Building CXX object CMakeFiles/A2.dir/src/patternsmanager.cpp.o
+[100%] Linking CXX executable A2.exe
+[100%] Built target A2
