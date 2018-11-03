@@ -60,3 +60,6 @@
     <li>Name of the output file</li>
   </ol>
   </p>
+<p>An example is provided in the <code>data</code> folder, working on the <a href="http://archive.ics.uci.edu/ml/datasets/Iris">Iris</a> dataset. The output file will contain information on the accuracy of the runs, as well as the weights and thresholds in the network</p>
+<p>The code is not meant to be production efficient, but rather a reference on how to implement a Neural Network in C++. It lacks any optimisation, first and foremost because it does not exploit GPUs.</p>
+<p> A doxygen configuration file <code>NNDoxyFile</code> is also provided requiring <a href="http://www.doxygen.org">Doxygen</a> version 1.8 or later. Simply run <code>doxygen NNDoxyFile</code> and then point your browser to the <code>html/index.html</code> file.</p>
